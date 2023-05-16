@@ -12,22 +12,24 @@ const Rockets = () => {
   }, [dispatch, isLoading]);
 
   return (
-    <div className="rockets-container">
+    <div className="flex rockets-container">
       {isLoading && rocket.map((rocket) => (
         <div key={rocket.id} className="rocket-card">
           <img src={rocket.image} alt={rocket.name} className="rocket-image" />
-          <h2 className="rocket-title">{rocket.name}</h2>
-          <p className="rocket-details">
-            {rocket.reserved && <span className="reserved">Reserved</span>}
-            {rocket.description}
-          </p>
-          <button
-            type="button"
-            className={rocket.reserved ? 'unreserve' : 'reserve'}
-            onClick={() => dispatch(reserveRocket(rocket.id))}
-          >
-            {rocket.reserved ? 'cancel reserve' : 'reserve rocket'}
-          </button>
+          <div className="flex rockets-content">
+            <h2 className="rocket-title">{rocket.name}</h2>
+            <p className="rocket-details">
+              {rocket.reserved && <span className="reserved">Reserved</span>}
+              {rocket.description}
+            </p>
+            <button
+              type="button"
+              className={rocket.reserved ? 'unreserve' : 'reserve'}
+              onClick={() => dispatch(reserveRocket(rocket.id))}
+            >
+              {rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
+            </button>
+          </div>
         </div>
       ))}
     </div>

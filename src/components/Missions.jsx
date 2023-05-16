@@ -32,11 +32,11 @@ const Missions = () => {
         <tbody>
           {missions.map((mission) => (
             <tr key={mission.mission_id} className="mission-row">
-              <td className="mission-name">{mission.mission_name}</td>
+              <td className="flex mission-name">{mission.mission_name}</td>
               <td className="mission-description">{mission.description}</td>
               <td className="mission-reservation">
                 {mission.reserved ? (
-                  <button className="member-button" type="button">
+                  <button className="member-button active" type="button">
                     Active Member
                   </button>
                 ) : (
@@ -48,7 +48,7 @@ const Missions = () => {
               <td className="mission-reservation">
                 {mission.reserved ? (
                   <button
-                    className="mission-button"
+                    className="mission-button leave"
                     type="button"
                     onClick={() => handleCancelMission(mission.mission_id)}
                   >
