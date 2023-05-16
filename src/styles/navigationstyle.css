@@ -33,7 +33,7 @@ nav {
 
 nav ul {
   width: 40%;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 nav ul .a {
