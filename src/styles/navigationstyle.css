@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Montserrat&family=Puritan&family=Roboto+Slab&family=Roboto:wght@100;400&display=swap');
+
 * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+  border: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  margin: 10px 30px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(189, 188, 188);
+}
+
+.logo-header {
+  width: 40%;
+  gap: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul {
+  width: 30%;
+  justify-content: space-between;
+}
+
+nav ul .a {
+  text-decoration: none;
+  color: rgba(52, 89, 255, 0.863);
+  margin: 5px;
+}
+
+nav ul .a:hover {
+  text-decoration: underline;
+  color: rgba(169, 169, 170, 0.863);
+}
+
+nav ul .a:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px rgb(189, 188, 188);
+}
+
+nav ul .a:focus {
+  color: rgb(167, 0, 167);
+}
+
+.nav-hr {
+  color: rgba(169, 169, 170, 0.863);
 }

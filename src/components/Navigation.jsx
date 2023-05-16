@@ -4,16 +4,16 @@ import '../styles/navigationstyle.css';
 
 const Navigation = () => (
   <>
-    <nav className="navigation-container">
-      <div className="logo-header">
+    <nav className="flex">
+      <div className="flex logo-header">
         <img src={logo} alt="logo" className="logo" />
-        <h1>Space Travellers Hub</h1>
+        <h1>Space Travellers&apos; Hub</h1>
       </div>
-      <ul className="nav-links">
-        <NavLink to="/">rockets</NavLink>
-        <NavLink to="/missions">missions</NavLink>
-        <hr className="nav-hr" />
-        <NavLink to="/profile">my profile</NavLink>
+      <ul className="flex">
+        <NavLink to="/" className="a">Rockets</NavLink>
+        <NavLink to="/missions" className="a">Missions</NavLink>
+        <span className="a nav-hr"> | </span>
+        <NavLink to="/profile" className="a">My Profile</NavLink>
       </ul>
     </nav>
   </>
