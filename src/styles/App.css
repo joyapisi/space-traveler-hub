@@ -13,21 +13,12 @@
 
 .missions-container {
   margin: 10px 40px;
-  /* padding: 5px; */
 }
 
 table {
   border: 1px solid  rgb(219, 218, 218);
   padding: 5px 20px 5px 10px;
   border-collapse: collapse;
-}
-
-thead {
-
-}
-
-.tableHeader-row {
-  /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
 }
 
 th {
@@ -40,59 +31,50 @@ th {
   border-bottom: 1px solid  rgb(219, 218, 218);
 }
 
-tbody .mission-row:nth-child(even){
+tbody .mission-row:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-tbody tr td .mission-td{
+tbody tr td .mission-td {
   padding: 5px;
 }
 
-tbody tr .mission-name{
+tbody tr .mission-name {
   width: 10%;
   flex-direction: column;
   justify-content: flex-start;
-  /* border-right: 1px solid rgb(219, 218, 218); */
-  /* grid-template-columns: 1fr 80% 1fr 1fr; */
-  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 
 thead tr th {
   border-bottom: 1px solid  rgb(219, 218, 218);
   padding: 5px;
 }
-thead tr th, tbody tr .mission-description {
-  border-left: 1px solid rgb(219, 218, 218);
-  border-right: 1px solid rgb(219, 218, 218);
-  /* grid-template-columns: 1fr 80% 1fr 1fr; */
-  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
-}
 
 tbody .mission-description {
   width: 65%;
 }
 
-.mission-reservation{
+thead tr th,
+tbody tr .mission-description {
+  border-left: 1px solid rgb(219, 218, 218);
+  border-right: 1px solid rgb(219, 218, 218);
+}
+
+.mission-reservation {
   width: 10%;
   border-right: 1px solid rgb(219, 218, 218);
-  /* grid-template-columns: 1fr 80% 1fr 1fr; */
-  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 
 .mission-reservation2 {
   width: 15%;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .member-button {
   width: 120px;
   border-radius: 0.15rem;
-  /* aspect-ratio: 3/1; */
-  /* rgba(52, 89, 255, 0.863);*/
   padding: 1px;
   color: #fff;
-  background-color: rgba(109, 108, 108, 0.863); ;
+  background-color: rgba(109, 108, 108, 0.863);
 }
 
 .member-button .active {

@@ -17,17 +17,14 @@
   gap: 20px;
 }
 
-.mission-profile-container {
-
+.mission-title,
+.rocket-title {
+  margin-bottom: 10px;
 }
 
-.mission-title, .rocket-title {
-    margin-bottom: 10px;
-}
-
-.mission-item, .rocket-item {
+.mission-item,
+.rocket-item {
   width: 100%;
-
 }
 
 .displayed {
