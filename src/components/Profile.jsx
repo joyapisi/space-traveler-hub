@@ -10,12 +10,15 @@ const Profile = () => {
   return (
     <div className="main-profile-container">
       <div className="mission-profile-container">
-        <h2 className="mission-title">my missions</h2>
+        <h2 className="mission-title">My Missions</h2>
         <table className="mission-item">
           <tbody>
             <>
               {myMissions.map((mission) => (
-                <tr key={mission.mission_id}>
+                <tr
+                  className="flex displayed"
+                  key={mission.mission_id}
+                >
                   <td>{mission.mission_name}</td>
                 </tr>
               ))}
@@ -24,12 +27,15 @@ const Profile = () => {
         </table>
       </div>
       <div className="rocket-profile-container">
-        <h2 className="rocket-title">my rockets</h2>
+        <h2 className="rocket-title">My Rockets</h2>
         <table className="rocket-item">
           <tbody>
             <>
               {myRockets.map((rocket) => (
-                <tr key={rocket.id}>
+                <tr
+                  className="flex displayed"
+                  key={rocket.id}
+                >
                   <td>{rocket.name}</td>
                 </tr>
               ))}

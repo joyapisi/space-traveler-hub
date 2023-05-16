@@ -40,12 +40,12 @@ th {
   border-bottom: 1px solid  rgb(219, 218, 218);
 }
 
-tbody tr:nth-child(even){
+tbody .mission-row:nth-child(even){
   background-color: #f2f2f2;
 }
 
-tbody tr td {
-  /* border-right: 1px solid rgb(219, 218, 218); */
+tbody tr td .mission-td{
+  padding: 5px;
 }
 
 tbody tr .mission-name{
@@ -62,29 +62,27 @@ thead tr th {
   padding: 5px;
 }
 thead tr th, tbody tr .mission-description {
-  width: 60%;
   border-left: 1px solid rgb(219, 218, 218);
   border-right: 1px solid rgb(219, 218, 218);
   /* grid-template-columns: 1fr 80% 1fr 1fr; */
   /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 
-tbody tr .mission-reservation{
+tbody .mission-description {
+  width: 65%;
+}
+
+.mission-reservation{
   width: 10%;
   border-right: 1px solid rgb(219, 218, 218);
   /* grid-template-columns: 1fr 80% 1fr 1fr; */
   /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 
-tbody tr td {
-  padding: 5px;
-  /* grid-template-columns: 1fr 80% 1fr 1fr; */
-  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
-}
-
-tr {
-  /* display: grid; */
-  /* grid-template-rows: repeat(4, 40%); */
+.mission-reservation2 {
+  width: 15%;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .member-button {
@@ -104,7 +102,7 @@ tr {
 .mission-button {
   width: 120px;
   border-radius: 0.15rem;
-  padding: 5px 15px;
+  padding: 5px 10px;
   border: 1px solid rgba(169, 169, 170, 0.863);
   background-color: transparent;
 }
