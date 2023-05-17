@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-// import axios from 'axios';
 
 const url = 'https://api.spacexdata.com/v4/rockets';
 
@@ -7,20 +6,6 @@ const initialState = {
   rocket: [],
   isLoading: false,
 };
-
-// export const getRockets = createAsyncThunk('rockets/fetchRockets', async () => {
-//   // const response = await axios.get(url);
-//   const response = await fetch(url);
-//   const rocket = response.data;
-//   return rocket.map((rocket) => (
-//     {
-//       id: rocket.id,
-//       name: rocket.name,
-//       description: rocket.description,
-//       image: rocket.flickr_images[0],
-//     }
-//   ));
-// });
 
 export const getRockets = createAsyncThunk('rockets/fetchRockets', async () => {
   const response = await fetch(url);
