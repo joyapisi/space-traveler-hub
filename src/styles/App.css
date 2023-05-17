@@ -63,18 +63,22 @@ tbody tr .mission-description {
 .mission-reservation {
   width: 10%;
   border-right: 1px solid rgb(219, 218, 218);
+  padding: 0 2px;
+
 }
 
 .mission-reservation2 {
   width: 15%;
+  padding: 0 12px;
 }
 
 .member-button {
-  width: 120px;
+  width: 115px;
   border-radius: 0.15rem;
-  padding: 1px;
+  font-size: 14px;
   color: #fff;
   background-color: rgba(109, 108, 108, 0.863);
+  text-align: center;
 }
 
 .member-button .active {
@@ -87,6 +91,7 @@ tbody tr .mission-description {
   padding: 5px 10px;
   border: 1px solid rgba(169, 169, 170, 0.863);
   background-color: transparent;
+  text-align: center;
 }
 
 .mission-button .leave {
