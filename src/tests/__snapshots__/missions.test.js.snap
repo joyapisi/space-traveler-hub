@@ -18,6 +18,9 @@ exports[`Missions Render Missions Component 1`] = `
         <th>
           Status
         </th>
+        <th>
+           
+        </th>
       </tr>
     </thead>
     <tbody />

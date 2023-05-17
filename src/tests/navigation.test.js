@@ -10,9 +10,9 @@ test('renders navigation links correctly', () => {
     </MemoryRouter>,
   );
 
-  const rocketsLink = screen.getByText('rockets');
-  const missionsLink = screen.getByText('missions');
-  const profileLink = screen.getByText('my profile');
+  const rocketsLink = screen.getByText('Rockets');
+  const missionsLink = screen.getByText('Missions');
+  const profileLink = screen.getByText('My Profile');
 
   expect(rocketsLink).toBeInTheDocument();
   expect(missionsLink).toBeInTheDocument();

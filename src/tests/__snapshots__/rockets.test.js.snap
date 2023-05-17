@@ -2,6 +2,6 @@
 
 exports[`Rockets Render Rockets Component 1`] = `
 <div
-  className="rockets-container"
+  className="flex rockets-container"
 />
 `;

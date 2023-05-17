@@ -10,7 +10,7 @@ exports[`Profile Render Profile Component 1`] = `
     <h2
       className="mission-title"
     >
-      my missions
+      My Missions
     </h2>
     <table
       className="mission-item"
@@ -24,7 +24,7 @@ exports[`Profile Render Profile Component 1`] = `
     <h2
       className="rocket-title"
     >
-      my rockets
+      My Rockets
     </h2>
     <table
       className="rocket-item"
