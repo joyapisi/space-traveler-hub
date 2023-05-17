@@ -16,6 +16,7 @@
 
 nav {
   justify-content: space-between;
+  align-items: center;
   margin: 10px 30px;
   padding-bottom: 20px;
   border-bottom: solid 1px rgb(219, 218, 218);
@@ -24,6 +25,7 @@ nav {
 .logo-header {
   width: 40%;
   gap: 15px;
+  align-items: center;
 }
 
 .logo {

@@ -42,7 +42,7 @@ tbody tr td .mission-td {
 tbody tr .mission-name {
   width: 10%;
   flex-direction: column;
-  justify-content: flex-start;
+  text-align: left;
 }
 
 thead tr th {
