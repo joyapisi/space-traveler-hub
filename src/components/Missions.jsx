@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMissions, joinMission, cancelMission } from '../redux/missions/missionSlice';
