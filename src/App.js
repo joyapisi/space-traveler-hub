@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './styles/App.css';
+import './styles/missions.css';
 import Navigation from './components/Navigation';
 import Missions from './components/Missions';
 import Rockets from './components/Rockets';
