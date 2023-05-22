@@ -26,7 +26,7 @@ React/Redux Project
 
 # 📖 [Space_Travelers_App] <a name="Space_Travelers_App"></a>
 
-**[Space_Travelers_App]** "Space Travelers App" is aa web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+**[Space_Travelers_App]** "Space Travelers App" is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 You will learn how to use React and Redux. It also follows <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow.</a>
 
@@ -64,6 +64,9 @@ You will learn how to use React and Redux. It also follows <a href="https://www.
 - **[Dynamic-Design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# [🚀 Live Demo]<a name=#live-demo></a>
+[View Live Demo](https://my-space-travellers-hub.netlify.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
